@@ -12,9 +12,39 @@ namespace Lab10_WindowsFormProperties
 {
     public partial class Form1 : Form
     {
+        private Control btnHello;
+        private readonly Color btnBackColor;
+
         public Form1()
         {
             InitializeComponent();
+            InitializeComponent();
+            btnHello = new Button();
+            btnHello.Location = new Point(20, 20);
+            btnHello.Text = "Hello";
+            this.Controls.Add(btnHello);
+            btnHello.Click += BtnHello_Click;
+            btnBackColor = btnHello.BackColor;
+            btnHello.MouseEnter += BtnHello_MouseEnter;
+            btnHello.MouseLeave += BtnHello_MouseLeave;
+
+        }
+
+        private void BtnHello_MouseLeave(object sender, EventArgs e)
+        {
+            btnHello.BackColor = btnBackColor;
+
+        }
+
+        private void BtnHello_MouseEnter(object sender, EventArgs e)
+        {
+            btnHello.BackColor = Color.Green;
+        }
+
+        private void BtnHello_Click(object sender, EventArgs e)
+        {
+            
+            MessageBox.Show("Hello");
         }
     }
 }
