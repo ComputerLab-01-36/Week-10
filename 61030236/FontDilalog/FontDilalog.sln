@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontDilalog", "FontDilalog\FontDilalog.csproj", "{5BCDD282-A69B-4FCC-B1DD-78AEA21B892C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BCDD282-A69B-4FCC-B1DD-78AEA21B892C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCDD282-A69B-4FCC-B1DD-78AEA21B892C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCDD282-A69B-4FCC-B1DD-78AEA21B892C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCDD282-A69B-4FCC-B1DD-78AEA21B892C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1C63D3F-19FE-45B5-8BD9-47DE293CEDBC}
+	EndGlobalSection
+EndGlobal
