@@ -12,9 +12,16 @@ namespace Lab10_WindowsFormProperties
 {
     public partial class Form1 : Form
     {
+        private Button btnHello;
+
         public Form1()
         {
             InitializeComponent();
+            btnHello = new Button();
+            btnHello.Location = new Point(20, 20);
+            btnHello.Text = "Hello";
+            this.Controls.Add(btnHello);
+
         }
     }
 }
